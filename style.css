@@ -1,0 +1,203 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+#navbar{
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    background: #333;
+    align-items: center;
+    width: 100%;
+    padding: 15px;
+    z-index: 1;
+}
+#text-primary{
+    color: #93cb52;
+}
+#logo{
+    font-size: 20px;
+    padding: 10px;
+}
+#navbar ul{
+    list-style: none;
+}
+#navbar a{
+    text-decoration: none;
+    color: #fff;
+    padding: 7px;
+}
+#navbar ul li a:hover{
+    background-color: #93cb52;
+    border-radius: 7px;
+}
+#navbar ul{
+    display: flex;
+}
+#navbar ul li{
+    padding: 10px;
+}
+
+/* End of Navigation bar */
+
+/* Showcase Section */
+#showcase{
+    background: url(/image_resources/showcase.jpg) no-repeat center center/cover;
+    height: 100vh;
+    /* top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0); */
+} 
+#showcase-container{
+    color: #fff;
+    text-align: center;
+    line-height: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    /* background: black; */
+}
+#desig{
+    color: #93cb52;
+    font-size: 40px;
+}
+#showcase-container p{
+    padding: 10px 0;
+    font-size: 20px;
+}
+
+#showcase-container a{
+    text-decoration: none;
+    color: #fff;
+}
+#showcase-container a:hover{
+    background: #93cb52;
+    border-radius: 10px;
+    padding: 7px;
+}
+/* End of Showcase Section */
+/* What I do Section */
+#about{
+    height: 40vh;
+    margin-top: 10px;
+    /* background: #333; */
+    width: 100%;
+}
+#about h1{
+    text-align: center;
+    padding: 40px;
+    font-size: 40px;
+}
+#about p{
+    padding: 0 30px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 30px;
+}
+/* end of About section */
+/* Education section */
+#edu{
+    margin-top: 60px;
+    /* margin-bottom: 40px; */
+    height: 40vh;
+    background: rgb(94, 92, 92);
+}
+#edu #heading{
+    margin: 40px;
+    text-align: center;
+    color: #93cb52;
+}
+#edu-details{
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    line-height: 1.5rem;
+    align-items: center;
+    padding: 10px;
+}
+#edu-details p{
+    color: #fff;
+}
+/* End of Education Section */
+/* My Work Section */
+#work{
+    height: 70vh;
+    margin-top: 1px;
+    background: url(/image_resources/work.jpg) no-repeat center center/cover;
+}
+.common{
+    display: flex;
+    flex-direction: column;
+    line-height: 1.5rem;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+.common ul{
+    list-style: none;
+}
+.common ul li{
+    color: #fff;
+}
+.common p{
+    color: #fff;
+}
+/* End of my work section */
+/* contact section */
+
+#contact-heading{
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+}
+#contact-heading h1,p{
+    padding: 10px;
+}
+#contact-section{
+    display: flex;
+    height: 60vh;
+}
+#contact-section #contact-form,#contact-section #map-section{
+    flex: 1;
+}
+#contact-form{
+    background: #93cb52;
+    padding: 10px;
+    padding-top:20px;
+}
+#contact-form input, #contact-form textarea{
+    padding: 10px;
+    display: block;
+    width: 100%;
+}
+#contact-form button{
+    padding: 10px;
+    margin: 10px;
+    margin-left: 240px;
+    border-radius: 7px;
+    width: 15%;
+    text-align: center;
+    background: #333;
+    color: #fff;
+}
+#contact-form button:hover{
+    background: #93cb52;
+    border: black 1px solid;
+}
+#contact-form input:hover{
+    border: black 1px solid;
+}
+#contact-section #map-section{
+    zoom: 1;
+    width: 100%;
+    margin: 30px;
+    margin-left: 250px;
+}
